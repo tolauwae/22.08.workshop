@@ -9,17 +9,112 @@
         .shower {
             --slide-ratio: calc(16 / 9);
         }
+            
+        /* slide number bottom right*/
+        .slide::after {
+            content: counter(slide);
+            position: absolute;
+            bottom: 1em;
+            line-height: 1;
+            font-weight: bold;
+            right: 0;
+            width: 5.5em /* = L */;
+            text-shadow: none;
+            text-align: center
+        }
+        .slide.clear::after {content: none}
+
     </style>
 </head>
 <body class="shower list">
 
     <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
+        <h1>Internet of Things: Into the Debug-verse</h1>
+        <p>Talk 22 Aug 2022 - Tom Lauwaerts</p>
     </header>
 
-    <section class="slide">
+    <section class="slide"> <!-- 1 -->
         <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 2 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 3 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 4 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 5 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 6 -->
+        <img class="cover w" src="pictures/slide-6.svg">
+    </section>
+
+    <section class="slide"> <!-- 7 -->
+        <img class="cover w" src="pictures/slide-7.svg">
+    </section>
+
+    <section class="slide"> <!-- 8 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 9 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 10 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 11 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 12 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 13 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 14 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 15 -->
+        <img class="cover w" src="pictures/slide-15.svg">
+    </section>
+
+    <section class="slide"> <!-- 16 -->
+        <img class="cover w" src="pictures/slide-16.svg">
+    </section>
+
+    <section class="slide"> <!-- 17 -->
+
+        <!-- Create your first slide -->
+    </section>
+
+    <section class="slide"> <!-- 18 -->
+        <img class="cover w" src="pictures/slide-18.svg">
     </section>
 
     <footer class="badge">
