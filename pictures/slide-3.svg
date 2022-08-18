@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426"><defs><style>.cls-1{letter-spacing:.28em;}.cls-2{letter-spacing:.14em;}.cls-3{letter-spacing:.27em;}.cls-4{letter-spacing:.26em;}.cls-5{fill:#e2e4e6;font-family:Roboto-Black, Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}</style></defs><text class="cls-5" transform="translate(158.84 202.2)"><tspan class="cls-3" x="0" y="0">OU</tspan><tspan class="cls-2" x="90.96" y="0">T</tspan><tspan class="cls-3" x="127.8" y="0">-OF-P</tspan><tspan class="cls-1" x="326.41" y="0">L</tspan><tspan class="cls-4" x="365.83" y="0">A</tspan><tspan class="cls-3" x="410.99" y="0">CE</tspan><tspan class="cls-3"><tspan x="55.77" y="57.6">DEBUGGING</tspan></tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426">
+    <defs>
+        <style>
+            .cls-1{letter-spacing:.28em;}.cls-2{letter-spacing:.14em;}.cls-3{letter-spacing:.27em;}.cls-4{letter-spacing:.26em;}.cls-5{fill:#e2e4e6;font-family:Roboto-Black,
+            Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}
+        </style>
+    </defs>
+    <text class="cls-5" transform="translate(158.84 202.2)">
+        <tspan class="cls-3" x="0" y="0">OUT-OF-PLACE</tspan>
+        <tspan class="cls-3">
+            <tspan x="55.77" y="57.6">DEBUGGING</tspan>
+        </tspan>
+    </text>
+</svg>

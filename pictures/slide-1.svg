@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="slide_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426"><defs><style>.cls-1{letter-spacing:.26em;}.cls-2{letter-spacing:.27em;}.cls-3{fill:#e2e4e6;font-family:Roboto-Black, Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}.cls-4{letter-spacing:.25em;}.cls-5{letter-spacing:.26em;}</style></defs><text class="cls-3" transform="translate(122.96 202.2)"><tspan class="cls-4" x="0" y="0">W</tspan><tspan class="cls-2" x="53.67" y="0">ARDUINO: I</tspan><tspan class="cls-1" x="432.39" y="0">N</tspan><tspan class="cls-5" x="478.37" y="0">T</tspan><tspan class="cls-2" x="520.93" y="0">O</tspan><tspan class="cls-2"><tspan x="-26" y="57.6">THE DEBUG-VERSE</tspan></tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="slide_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426">
+    <defs>
+        <style>.cls-1{letter-spacing:.26em;}.cls-2{letter-spacing:.27em;}.cls-3{fill:#e2e4e6;font-family:Roboto-Black,
+            Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}.cls-4{letter-spacing:.25em;}.cls-5{letter-spacing:.26em;}
+        </style>
+    </defs>
+    <text class="cls-3" transform="translate(122.96 202.2)">
+        <tspan class="cls-4" x="0" y="0">WARDUINO: INTO</tspan>
+        <tspan class="cls-4">
+            <tspan x="-26" y="57.6">THE DEBUG-VERSE</tspan>
+        </tspan>
+    </text>
+</svg>
