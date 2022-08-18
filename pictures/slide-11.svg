@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="slide_11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426"><defs><style>.cls-1{letter-spacing:.26em;}.cls-2{letter-spacing:.27em;}.cls-3{letter-spacing:.26em;}.cls-4{fill:#e2e4e6;font-family:Roboto-Black, Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}</style></defs><text class="cls-4" transform="translate(188.83 202.2)"><tspan class="cls-2" x="0" y="0">STRU</tspan><tspan class="cls-1" x="175.36" y="0">C</tspan><tspan class="cls-2" x="219.14" y="0">TURED</tspan><tspan class="cls-2" x="37.52" y="57.6">APPR</tspan><tspan class="cls-3" x="215.85" y="57.6">OA</tspan><tspan class="cls-2" x="306.63" y="57.6">CH</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="slide_11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426">
+    <defs>
+        <style>
+            .cls-1{letter-spacing:.26em;}.cls-2{letter-spacing:.27em;}.cls-3{letter-spacing:.26em;}.cls-4{fill:#e2e4e6;font-family:Roboto-Black,
+            Roboto;font-size:48px;stroke:#e2e4e6;stroke-miterlimit:10;stroke-width:2px;}
+        </style>
+    </defs>
+    <text class="cls-4" transform="translate(188.83 202.2)">
+        <tspan class="cls-2" x="0" y="0">STRUCTURED</tspan>
+        <tspan class="cls-2" x="37.52" y="57.6">APPROACH</tspan>
+    </text>
+</svg>
