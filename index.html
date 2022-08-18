@@ -8,8 +8,9 @@
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
+            --color-key: #2196f3; /* #a7ddef; */
         }
-            
+
         /* slide number bottom right*/
         .slide::after {
             content: counter(slide);
@@ -22,109 +23,160 @@
             text-shadow: none;
             text-align: center
         }
-        .slide.clear::after {content: none}
+        .slide.clear::after {
+            content: none
+        }
 
+        h2 {
+            font-family: Roboto-Black, Roboto, serif;
+            font-weight: bolder;
+            text-align: center;
+            color: #e2e4e6;
+        }
+
+        .titles {
+            letter-spacing: .16em;
+            color: #e2e4e6 !important;
+            font-family: serif !important;
+            text-transform: uppercase;
+            font-size: 58px !important;
+            font-weight: 900 !important;
+            line-height: 1.25 !important;
+        }
+
+        .citation {
+            font-style: italic;
+            color: #9fa0a1;
+            font-size: 50%;
+            line-height: 130%;
+        }
     </style>
 </head>
 <body class="shower list">
 
-    <header class="caption">
-        <h1>Internet of Things: Into the Debug-verse</h1>
-        <p>Talk 22 Aug 2022 - Tom Lauwaerts</p>
-    </header>
+<header class="caption">
+    <h1>WARDuino: Into the Debug-verse</h1>
+    <p>Talk 22 Aug 2022 - Tom Lauwaerts</p>
+</header>
 
-    <section class="slide"> <!-- 1 -->
-        <!-- Create your first slide -->
-    </section>
+<section class="slide"> <!-- 1 -->
+    <h2 class="titles place center cover w">WARDuino: Into The Debug-verse</h2>
+    <img class="place bottom" src="pictures/logo_UGent_EN_RGB_2400_color.png">
 
-    <section class="slide"> <!-- 2 -->
+</section>
 
-        <!-- Create your first slide -->
-    </section>
+<section class="slide"> <!-- 2 -->
+    <img class="place center cover w" src="pictures/warduino.png">
+    <p class="place bottom citation">
+        Robbert Gurdeep Singh, and Christophe Scholliers. 2019. WARDuino: A Dynamic WebAssembly Virtual Machine for
+        Programming Microcontrollers.
+    </p>
+</section>
 
-    <section class="slide"> <!-- 3 -->
+<section class="slide"> <!-- 3 -->
+    <svg class="cover w" id="Layer_10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 426">
+        <defs>
+            <style>
+            .cls-4 {
+                letter-spacing: .27em;
+            }
 
-        <!-- Create your first slide -->
-    </section>
+            .cls-6 {
+                fill: #e2e4e6;
+                font-family: serif;
+                font-size: 48px;
+                stroke: #e2e4e6;
+                stroke-miterlimit: 10;
+                stroke-width: 2px;
+            }</style>
+        </defs>
+        <text class="cls-6" transform="translate(158.84 173.4)">
+            <tspan class="cls-4" x="0" y="0">OUT-OF-PLACE</tspan>
+            <tspan class="cls-4" x="55.77" y="57.6">DEBUGGING</tspan>
+        </text>
+    </svg>
+    <p class="place bottom citation">
+    </p>
+</section>
 
-    <section class="slide"> <!-- 4 -->
+<section class="slide"> <!-- 4 -->
+    <img class="place center cover h" src="pictures/edward.svg">
+</section>
 
-        <!-- Create your first slide -->
-    </section>
+<section class="slide"> <!-- 5 -->
+    <!--    <h2 class="place center">Out-of-Place Multiverse Debugging</h2>-->
+    <img class="cover w" src="pictures/base-slide.svg">
+    <p class="place bottom citation">
+        Carmen Torres Lopez, Robbert Gurdeep Singh, Stefan Marr, Elisa Gonzalez Boix, and Christophe Scholliers. 2019.
+        Multiverse Debugging: Non-deterministic Debugging for Non-deterministic Programs.
+    </p>
+    <img class="place bottom right" src="pictures/logo_UGent_EN_RGB_2400_color.png">
+</section>
 
-    <section class="slide"> <!-- 5 -->
+<section class="slide"> <!-- 6 -->
+    <img class="cover w" src="pictures/slide-6.svg">
+</section>
 
-        <!-- Create your first slide -->
-    </section>
+<section class="slide"> <!-- 7 -->
+    <img class="cover w" src="pictures/slide-7.svg">
+</section>
 
-    <section class="slide"> <!-- 6 -->
-        <img class="cover w" src="pictures/slide-6.svg">
-    </section>
+<section class="slide"> <!-- 8 -->
+    <img class="cover w" src="pictures/slide-8.svg">
+    <!-- Create your first slide -->
+</section>
 
-    <section class="slide"> <!-- 7 -->
-        <img class="cover w" src="pictures/slide-7.svg">
-    </section>
-
-    <section class="slide"> <!-- 8 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 9 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 10 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 11 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 12 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 13 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 14 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 15 -->
-        <img class="cover w" src="pictures/slide-15.svg">
-    </section>
-
-    <section class="slide"> <!-- 16 -->
-        <img class="cover w" src="pictures/slide-16.svg">
-    </section>
-
-    <section class="slide"> <!-- 17 -->
-
-        <!-- Create your first slide -->
-    </section>
-
-    <section class="slide"> <!-- 18 -->
-        <img class="cover w" src="pictures/slide-18.svg">
-    </section>
-
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+<section class="slide"> <!-- 9 -->
+    <footer class="footer">
+        <p>on off chain</p>
     </footer>
+</section>
 
-    <div class="progress"></div>
+<section class="slide"> <!-- 10 -->
+    <footer class="footer">
+        <p>snapshot</p>
+    </footer>
+</section>
 
-    <script src="shower/shower.js"></script>
-    <!-- Copyright © 2022 Yours Truly, Famous Inc. -->
+<section class="slide"> <!-- 11 -->
+    <h2 class="titles place center cover w">Structured Approach</h2>
+    <footer class="footer">
+        <p>extensible by programmers</p>
+    </footer>
+</section>
+
+<section class="slide"> <!-- 12 -->
+    <footer class="footer">
+        <p>too many paths</p>
+    </footer>
+</section>
+
+<section class="slide"> <!-- 13 -->
+    <img class="cover w" src="pictures/slide-15.svg">
+</section>
+
+<section class="slide"> <!-- 14 -->
+    <img class="cover w" src="pictures/slide-16.svg">
+</section>
+
+<section class="slide"> <!-- 15 -->
+    <footer class="footer">
+        <p>too many paths</p>
+    </footer>
+</section>
+
+<section class="slide"> <!-- 16 -->
+    <img class="cover w" src="pictures/slide-18.svg">
+</section>
+
+<footer class="badge">
+    <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+</footer>
+
+<div class="progress"></div>
+
+<script src="shower/shower.js"></script>
+<!-- Copyright © 2022 Yours Truly, Famous Inc. -->
 
 </body>
 </html>
